@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--
+/**
+* Copyright 2023 Adorncommerce LLP. All rights reserved.
+* See LICENSE.txt for license details.
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+        <menu>
+            <add id="Adorncommerce_Core::adorn"
+                 title="Adorncommerce"
+                 module="Adorncommerce_Core"
+                 sortOrder="10"
+                 resource="Adorncommerce_Core::adorn"/>
+        </menu>
+</config>

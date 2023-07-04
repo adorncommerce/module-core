@@ -1,0 +1,6 @@
+.admin__menu .item-adorn.parent.level-0 > a:before {
+    content: url('../images/logo.svg');
+}
+li#menu-adorncommerce-core-adorn > a > span {
+    display: none;
+}

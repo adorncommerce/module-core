@@ -1,0 +1,22 @@
+{
+    "name": "adorncommerce/module-core",
+    "description": "Core",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Adorncommerce",
+            "email": "info@adorncommerce.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Adorncommerce\\Core\\": ""
+        }
+    }
+}
